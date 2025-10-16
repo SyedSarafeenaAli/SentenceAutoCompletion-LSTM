@@ -72,9 +72,7 @@ Link: https://www.kaggle.com/datasets/noorsaeed/holmes
 
 FEATURES:
 
-Features / Representations (Inputs and Outputs)
-
-To train a model to predict the next word, we convert the dataset into input-output pairs (features, labels).
+Features / Representations (Inputs and Outputs) - To train a model to predict the next word, we convert the dataset into input-output pairs (features, labels).
 
 1. Sliding Window / Context Sequences
 
