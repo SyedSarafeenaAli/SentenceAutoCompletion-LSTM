@@ -1,3 +1,37 @@
+# THEORY:-
+
+NATURAL LANGUAGE PROCESSING (NLP):
+
+Natural Language Processing is the fascinating branch of artificial intelligence that enables computers to understand, interpret, and generate human language in a meaningful way. At its core, NLP breaks down complex human language into manageable pieces. It starts with basic tasks like tokenization (splitting sentences into words) and part-of-speech tagging (identifying nouns, verbs, etc.). From there, it tackles sophisticated challenges like Named Entity Recognition (spotting names, places, dates), sentiment analysis (detecting if text is positive or negative), machine translation (Google Translate), and even text generation (for chatbots).
+
+SENTENCE AUTO-COMPLETION IN NLP:
+
+Sentence autocompletion is that incredibly useful feature you see every time you type—whether it's the dropdown suggestions in Google Search, the predictive text on your phone keyboard, or email drafting helpers. It's like having a super-smart writing assistant that anticipates your next words before you even think of them.
+
+How it works: As you type "I love to...", it instantly suggests "eat pizza" or "watch movies." The system analyzes the context of what you've written so far and predicts the most likely continuation based on patterns learned from billions of sentences.
+
+LONG SHORT-TERM MEMORY (LSTM):
+
+LSTM (Long Short-Term Memory) is a special type of Recurrent Neural Network designed specifically for sequence data like text. It is considered as a "smart memory" that never forgets important details from way back in a sentence.
+
+HOW IS LSTM USED IN SENTENCE AUTO-COMPLETION? 
+
+LSTM excels at autocompletion because its intelligent gates create long-term memory that remembers context across entire sentences, solving the "forgetting" problem of regular networks to deliver accurate suggestions.
+
+How does LSTM remember context? 
+
+LSTM uses three gates—forget (discards irrelevant info), input (adds new details), and output (predicts next)—acting like a smart librarian that tracks key words like "cat" from 20 words ago to suggest perfect continuations.
+
+How is LSTM trained for this?
+
+LSTM trains on billions of sentences to learn patterns like "I'm excited for" → "the trip," creating memory pathways that instantly rank top suggestions with confidence scores when you type in real-time.
+
+LSTM architecture for autocompletion?
+
+It stacks an embedding layer (words to vectors), LSTM layer (128 memory cells for context), and dense layer (ranks 10,000+ word options), predicting "eat pizza" (92% confidence) from "I love to" in milliseconds.
+
+
+
 # PROBLEM STATEMENT:-
 
 Given a (partial) sequence of words in a sentence (a prefix), design a model that predicts the most likely next word(s) to complete the sentence. In other words, the task is next-word prediction / sentence auto-completion:
